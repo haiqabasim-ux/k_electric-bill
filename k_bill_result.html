@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K-Electric Bill</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bill-container">
+        <div class="header">
+            <h1>🏠 K-ELECTRIC BILL</h1>
+            <h3>Official Electricity Bill</h3>
+        </div>
+        
+        <div class="field">
+            <span>Customer Name:</span>
+            <span id="customerName">-</span>
+        </div>
+        
+        <div class="field">
+            <span>Current Month:</span>
+            <span id="currentMonth">-</span>
+        </div>
+        
+        <div class="field">
+            <span>Number of Units:</span>
+            <span id="units">-</span>
+        </div>
+        
+        <div class="field">
+            <span>Charges per Unit:</span>
+            <span id="rate">-</span>
+        </div>
+        
+        <div class="field">
+            <span>Net Amount Payable (Due Date):</span>
+            <span id="netAmount">Rs. 0.00</span>
+        </div>
+        
+        <div class="field">
+            <span>Late Payment Surcharge:</span>
+            <span id="surcharge">Rs. 0.00</span>
+        </div>
+        
+        <div class="field">
+            <span>Gross Amount Payable (After Due Date):</span>
+            <span id="grossAmount">Rs. 0.00</span>
+        </div>
+        
+        <button class="print-btn" onclick="window.print()">🖨️ Print Bill</button>
+        <button class="back-btn" onclick="window.close()">← Back</button>
+    </div>
+
+ <script  src="result.js"></script>
+</body>
+</html>

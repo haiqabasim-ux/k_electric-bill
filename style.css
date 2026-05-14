@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+       font-family: 'Arial', sans-serif; 
+       max-width: 600px; 
+       margin: 20px auto; 
+       padding: 30px; 
+         
+        }
+
+input {
+     padding: 10px;
+     margin: 10px 0;
+     width: 100%;
+    /* box-sizing: border-box;*/
+    }
+.button_bill {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+     padding: 10px;
+     margin: 10px 0;
+     width: 100%;
+}
+.button_bill:hover { 
+    background: #0056b3; 
+}
+
+.bill-container {
+            background: white;
+            color: #333;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+    h2{
+        padding-bottom: 20px;
+    }
+
+        .header {
+     text-align: center;
+     color: #007bff;
+     margin-bottom: 30px; 
+    }
+.field {
+     display: flex;
+     justify-content: space-between;
+     padding: 10px 0;
+     border-bottom: 1px solid #eee;
+     }
+.field:last-child {
+     border-bottom: none;
+     font-weight: bold;
+     font-size: 18px;
+     color: #d32f2f; 
+    }
+.print-btn {
+     background: #28a745;
+      color: white; 
+      border: none; 
+      padding: 12px 30px; 
+      border-radius: 25px; 
+      cursor: pointer; 
+      margin-top: 20px;
+     }
+.back-btn {
+     background: #6c757d;
+     color: white;
+     }
+
